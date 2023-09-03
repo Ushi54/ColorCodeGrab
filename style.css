@@ -1,0 +1,8 @@
+.colorPanel {
+  display: grid; /*「Container」を「Grid Layout」に指定*/
+  grid-template-columns: 300px 300px 300px;
+  }
+
+.item{
+  border: solid;
+}
