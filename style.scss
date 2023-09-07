@@ -1,0 +1,115 @@
+$color1: #D7CDC2;
+$color2: #B5A89B;
+$color3: #80AAA6;
+$color4: #A0BFBD;
+$color5: #D2E2E0;
+$color6: #E5EDEF;
+
+body{
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+.container{
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  position: relative;
+
+  h1{
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    font-weight: 100;
+    color: $color2;
+  }
+
+.colorPanel {
+  display: grid; /*「colorPanel」を「Grid Layout」に指定*/
+  grid-template-columns: 300px 300px 300px;
+  gap: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+
+.item{
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  width: 300px;
+  height: 400px;
+  .colorBox{
+    height: 300px;
+  }
+  .colorCode{
+    height: 100px;
+    display: table;
+    width: 100%;
+    text-align: center;
+    p{
+      font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    }
+  }
+}
+.item:nth-child(1){
+  .colorBox{
+    background-color: $color1;
+  }
+  .colorCode p{
+    color: $color1;
+  }
+}
+.item:nth-child(2){
+  .colorBox{
+    background-color: $color2;
+  }
+  .colorCode p{
+    color: $color2;
+  }
+}
+.item:nth-child(3){
+  .colorBox{
+    background-color: $color3;
+  }
+  .colorCode p{
+    color: $color3;
+  }
+}
+.item:nth-child(4){
+  .colorBox{
+    background-color: $color4;
+  }
+  .colorCode p{
+    color: $color4;
+  }
+}
+.item:nth-child(5){
+  .colorBox{
+    background-color: $color5;
+  }
+  .colorCode p{
+    color: $color5;
+  }
+}
+.item:nth-child(6){
+  .colorBox{
+    background-color: $color6;
+  }
+  .colorCode p{
+    color: $color6;
+  }
+}
+}
+
+small{
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  color: #777777;
+}
+}

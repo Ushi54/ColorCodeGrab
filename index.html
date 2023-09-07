@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ColorCodeGrab</title>
+  <link rel="stylesheet" href="sanitize.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,15 +13,34 @@
   <div class="container">
     <h1>ColorCodeGrab</h1>
     <div class="colorPanel">
-      <div class="item">item1</div>
-      <div class="item">item2</div>
-      <div class="item">item3</div>
-      <div class="item">item4</div>
-      <div class="item">item5</div>
-      <div class="item">item6</div>
+      <div class="item" onclick="copyColor()">
+        <div class="colorBox"></div>
+        <div class="colorCode"><p>#D7CDC2</p></div>
+      </div>
+      <div class="item">
+        <div class="colorBox"></div>
+        <div class="colorCode"><p>#B5A89B</p></div>
+      </div>
+      <div class="item">
+        <div class="colorBox"></div>
+        <div class="colorCode"><p>#80AAA6</p></div>
+      </div>
+      <div class="item">
+        <div class="colorBox"></div>
+        <div class="colorCode"><p>#A0BFBD</p></div>
+      </div>
+      <div class="item">
+        <div class="colorBox"></div>
+        <div class="colorCode"><p>#D2E2E0</p></div>
+      </div>
+      <div class="item">
+        <div class="colorBox"></div>
+        <div class="colorCode"><p>#E5EDEF</p></div>
+      </div>
     </div>
     <small>© 2023 K.H</small>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
