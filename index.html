@@ -13,29 +13,44 @@
   <div class="container">
     <h1>ColorCodeGrab</h1>
     <div class="colorPanel">
-      <div class="item" onclick="copyColor()">
+      <div class="item" onclick="copyToClipboard()">
         <div class="colorBox"></div>
-        <div class="colorCode"><p>#D7CDC2</p></div>
+        <div class="colorCode">
+          <p id="copyText">#D7CDC2</p>
+        </div>
+      </div>
+      <div class="item" id="item">
+        <div class="colorBox"></div>
+        <div class="colorCode">
+          <p id="copyText">#B5A89B</p>
+        </div>
       </div>
       <div class="item">
         <div class="colorBox"></div>
-        <div class="colorCode"><p>#B5A89B</p></div>
+        <div class="colorCode">
+          <p id="copyText">#80AAA6</p>
+        </div>
       </div>
       <div class="item">
         <div class="colorBox"></div>
-        <div class="colorCode"><p>#80AAA6</p></div>
+        <div class="colorCode">
+          <p id="copyText">#A0BFBD</p>
+        </div>
       </div>
       <div class="item">
         <div class="colorBox"></div>
-        <div class="colorCode"><p>#A0BFBD</p></div>
+        <div class="colorCode">
+          <p id="copyText">#D2E2E0</p>
+        </div>
       </div>
       <div class="item">
         <div class="colorBox"></div>
-        <div class="colorCode"><p>#D2E2E0</p></div>
+        <div class="colorCode">
+          <p id="copyText">#E5EDEF</p>
+        </div>
       </div>
-      <div class="item">
-        <div class="colorBox"></div>
-        <div class="colorCode"><p>#E5EDEF</p></div>
+      <div id="copiedBox">
+        <p class="copied">copied!</p>
       </div>
     </div>
     <small>© 2023 K.H</small>

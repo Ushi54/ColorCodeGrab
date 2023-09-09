@@ -1,10 +1,17 @@
-var color1 = "#D7CDC2";
-var color2;
-var color3;
-var color4;
-var color5;
-var color6;
+function copyToClipboard() {
+  /* テキストを選択し、コピー */
+  let copyText = document.getElementById("copyText");
+  let textArea = document.createElement("textarea");
+  let copiedBox = document.getElementById("copiedBox");
+  textArea.value = copyText.textContent;
+  document.body.appendChild(textArea);
+  textArea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textArea);
 
-function copyColor() {
-  navigator.clipboard.writeText(color1);
+  /* コピーが完了したことをユーザーに通知 */
+  copiedBox.classList.add('is-active')
+  setTimeout(() => {
+    copiedBox.classList.remove('is-active')
+  }, 1600)
 }
