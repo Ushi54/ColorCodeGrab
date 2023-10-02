@@ -129,6 +129,7 @@ body {
       padding: 1em 5em;
       border-radius: 0.5em;
       opacity: 0;
+      transition: 0.5s;
 
       &.is-active {
         opacity: 0.5;

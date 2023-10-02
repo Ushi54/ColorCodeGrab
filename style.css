@@ -94,6 +94,7 @@ body {
   padding: 1em 5em;
   border-radius: 0.5em;
   opacity: 0;
+  transition: 0.5s;
 }
 .container .colorPanel #copiedBox.is-active {
   opacity: 0.5;
@@ -108,5 +109,4 @@ body {
   transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
   color: #777777;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
