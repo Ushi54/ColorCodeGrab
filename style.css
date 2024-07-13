@@ -49,10 +49,10 @@ body {
   vertical-align: middle;
 }
 .container .colorPanel .item:nth-child(1) .colorBox {
-  background-color: #D7CDC2;
+  background-color: #D8CDC2;
 }
 .container .colorPanel .item:nth-child(1) .colorCode p {
-  color: #D7CDC2;
+  color: #D8CDC2;
 }
 .container .colorPanel .item:nth-child(2) .colorBox {
   background-color: #B5A89B;
